@@ -23,24 +23,30 @@
 .toolsBtn {
     background-color: transparent;
     border: none;
+    width: 100px;
     height: 100px;
+   
 }
 
-.toolsBtn img {
-    height: 100%;
-  
+.toolsBtn svg {
+    width: 100px;
+    height: 100px;
+    
+    padding: 10px;
 }
 
 
 .database {
     background-color: transparent;
     border: none;
+    width: 100px;
     height: 100px;
 }
 
-.database img {
-    height: 100%;
- 
+.database svg {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
 }
 
 .content {
@@ -59,7 +65,7 @@
     height: 10px;
     width: 100%;
     z-index:2;
-    background: orange;
+    background: #ffce75;
     overflow: hidden;
     animation: progressBar 1.5s ease-in-out;
     animation-iteration-count: 1;
@@ -83,7 +89,7 @@
     height: 10px;
     width: 100%;
     z-index:2;
-    background: orange;
+    background: #ffce75;
     overflow: hidden;
     animation: progressBarRemove 1.5s ease-in-out;
     animation-iteration-count: 1;
@@ -91,6 +97,15 @@
     content:"";
     display:block;
     left:0;
+}
+
+.activeImage {
+    fill: orange;
+    
+}
+
+.notActiveImage {
+    fill: white;
 }
 
 @keyframes progressBar {
