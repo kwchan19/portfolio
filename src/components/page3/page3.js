@@ -150,7 +150,7 @@ export default function Page3() {
                                             projects[index].secondPage ? (
                                                 <img src={projects[index].secondPage}></img>
                                             ):(
-                                                <div>Cannot show demo due to privacy</div>
+                                                <div className='noImage'>Cannot show demo due to privacy</div>
                                             )
                                         }
                                        

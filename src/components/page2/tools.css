@@ -39,3 +39,88 @@
     margin-top: 25px;
     font-family: 'Futura Book', sans-serif;
 }
+
+
+@media only screen and (max-width: 1399px) {
+    .toolsDiv {
+        width: 18.2%;
+        margin: 10px;
+        height: 225px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .toolsDiv img {
+        height: 80px;
+        width: 80px;
+    
+    }
+
+    .toolsDiv {
+        width: 17.8%;
+        margin: 10px;
+        height: 175px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .toolsDiv img {
+        height: 60px;
+        width: 60px;
+    
+    }
+
+    .toolsDiv {
+        width: 22.1%;
+        margin: 10px;
+        height: 175px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .toolsDiv img {
+        height: 55px;
+        width: 55px;
+    
+    }
+
+    .toolsDiv {
+        width: 29.3%;
+        margin: 10px;
+        height: 160px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .toolsDiv img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .toolsDiv {
+        width: 32.2%;
+        margin: 2px;
+        height: 125px;
+        text-align: center;
+    }
+
+    .toolsDiv p {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .toolsDiv img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .toolsDiv {
+        width: 48.4%;
+        margin: 2px;
+        height: 125px;
+        text-align: center;
+    }
+}

@@ -145,3 +145,44 @@
     }
 }
 
+
+@media only screen and (max-width: 600px) {
+    .hello {
+        font-size: 23px;
+     
+        margin: 0 auto; 
+        width: auto;
+        margin-bottom: 20px;
+   
+    }
+
+    .who-am-i-div {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .who-am-i {
+        text-align: center;
+    }
+
+    .page1 {
+        align-items: flex-start;
+    }
+
+}
+
+@media only screen and (max-width: 344px) {
+    .hello {
+        font-size: 17px;
+     
+        margin: 0 auto; 
+        width: auto;
+        margin-bottom: 20px;
+   
+    }
+
+    .name {
+        font-size: 14px;
+    }
+}
