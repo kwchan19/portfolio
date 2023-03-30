@@ -58,7 +58,9 @@
     border-left: 15px solid white;
     border-top: 15px solid white;
     transform: rotate(10deg);
+    pointer-events: none;
 }
+
 
 .rainbow-about  {
     display: inline-block;
