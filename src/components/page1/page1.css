@@ -1,0 +1,147 @@
+.page1 {
+   
+    color: white;
+ 
+    font-family: 'Futura', sans-serif;
+    display: flex;
+    
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    
+
+}
+
+.who-am-i-div {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Futura', sans-serif;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 50%;
+
+
+}
+
+.page1div {
+    background-color: #16212b;
+    height: 100vh;
+
+}
+
+.hello {
+    display: flex;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    overflow: hidden; 
+    border-right: .15em solid white; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    animation: 
+        typeAnimation 3s steps(40, end),
+        blinkAnimation .75s step-end infinite;
+}
+
+@keyframes typeAnimation {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+@keyframes blinkAnimation {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+}
+
+.who-am-i {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    text-align: center;
+ 
+}
+
+.name {
+    display: flex;
+    font-size: 19px;
+    line-height: 40px;
+}
+
+
+.github {
+    background-color: #16212b;
+    border: none;
+    height: 50px;
+    margin-right: 10px;
+   
+}
+
+.linkedin {
+    background-color: #16212b;
+    border: none;
+    height: 50px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+.companies {
+    margin-top: 20px;
+}
+
+.github img {
+    width: 35px;
+    height: 35px;
+}
+
+
+
+.linkedin img {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+
+.rainbow  {
+    color: orange;
+   
+    margin-lefT: 25px;
+    text-align: center;
+
+
+}
+
+.rainbow_text_animated {
+    background: linear-gradient(to right, #6666ff, #0099ff , #6666ff, #0099ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+.home-image {
+    
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.home-image img {
+    width: 70%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+

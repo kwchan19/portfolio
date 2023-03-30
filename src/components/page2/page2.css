@@ -1,0 +1,103 @@
+.page2 {
+    height: 100vh;
+    background-color: #16212b;   
+    font-family: 'Futura ', sans-serif;
+}
+
+.aboutMeHeader {
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 45px;
+   
+}
+
+.aboutMeSubheader {
+    color: white;
+    font-weight: 400;
+    margin-top: 12px;
+    font-size: 21.5px;
+    margin-bottom: 50px;
+}
+
+.toolsBtn {
+    background-color: transparent;
+    border: none;
+    height: 100px;
+}
+
+.toolsBtn img {
+    height: 100%;
+  
+}
+
+.database {
+    background-color: transparent;
+    border: none;
+    height: 100px;
+}
+
+.database img {
+    height: 100%;
+ 
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.progressBarDiv {
+    width: 100%;
+    background-color: white;
+}
+
+.progressBar {
+    height: 10px;
+    width: 100%;
+    z-index:2;
+    background: orange;
+    overflow: hidden;
+    animation: progressBar 1.5s ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode:both;
+    content:"";
+    display:block;
+    left:0;
+}
+
+#progressDbToTools {
+    width: 100%;
+    height: 10px;
+}
+
+#progressToolsToPc {
+    width: 100%;
+    height: 10px;
+}
+
+.progressBarRemove {
+    height: 10px;
+    width: 100%;
+    z-index:2;
+    background: orange;
+    overflow: hidden;
+    animation: progressBarRemove 1.5s ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode:both;
+    content:"";
+    display:block;
+    left:0;
+}
+
+@keyframes progressBar {
+    0% { left:0;width: 0; }
+    100% {left:0;width: 100%;}
+}
+
+@keyframes progressBarRemove {
+    0% { left:0;width: 100%; }
+    100% {left:0;width: 0;}
+}

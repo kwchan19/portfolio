@@ -1,0 +1,41 @@
+.backend {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.backendDiv {
+    display: flex;
+    padding-top: 25px;
+    width: 18.45%;
+    margin: 10px;
+    height: 225px;
+    background-color: #213345;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    margin-top: 15px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.backendDiv:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.backendDiv img {
+    width: 100px;
+    height: 100px;
+    object-fit:scale-down;
+}
+
+.backendDiv p {
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    margin-top: 25px;
+    font-family: 'Futura Book', sans-serif;
+}

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Futura Book';
+    src: url('./fonts/FuturaBookFont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Titillium';
+    src: url('./fonts/TitilliumWeb-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
